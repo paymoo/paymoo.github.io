@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "Z4GVBN36S8.uk.co.paymoo",
+        "components": [
+          {
+            "/": "*"
+          }
+        ]
+      }
+    ]
+  }
+}
