@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "1501430555.uk.co.paymoo" ],
+        "components": [
+          {
+            "/": "/*/",
+            "?": { "test": "?*" }
+          }
+        ]
+      }
+    ]
+  }
+}
