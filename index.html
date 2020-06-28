@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<title>Paymoo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paymoo</title>
 
-<script>    
-  function openProfile() {
-    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
-    {
-        window.location.href = "appurlscheme://;
-        setTimeout(function () { 
-        window.location = "https://paymoo.github.io";}, 25);
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="script.js">
+
+  </script>
+
+  <style>
+    h1 {
+      font-size:64px;
+      color: #E1E1EB;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
     }
-    else
-    {
-        window.location = "https://www.google.co.in/?gfe_rd=cr&ei=sLSuWM4B7MjwB-6LtagE"
+
+    h2 {
+      font-size:24px;
     }
-}
 
-</script>
+    h4 {
+      font-size:20px;
+    }
 
-<style>
-  h1 {
-    font-size:64px;
-    color: #E1E1EB;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-  }
-
-  h2 {
-    font-size:24px;
-  }
-  
-  h4 {
-    font-size:20px;
-  }
-  
-  .centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    display: table;
-    background: #323C41;
-    color: #FFFFFF;
-    padding: 16px;
-    border-radius: 16px;
-  }
-</style>
+    .centered {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      display: table;
+      background: #323C41;
+      color: #FFFFFF;
+      padding: 16px;
+      border-radius: 16px;
+    }
+  </style>
 
 </head>
 
-<body onload="openProfile()"></body>
+<body onload="openLink()"></body>
 
 </html>
