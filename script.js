@@ -1,5 +1,5 @@
 function openLink() {
-    window.location.replace('paymoo.github.io');
+    window.location.replace('applinks:paymoo.github.io');
 
     setTimeout(
         function () { window.location.replace("https://itunes.apple.com/app/id12345678"); },
