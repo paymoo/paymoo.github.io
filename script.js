@@ -5,8 +5,8 @@ function openLink() {
         window.location.href = 'applinks:';
 
         setTimeout(
-            () => { window.location = 'https://paymoo.github.io';},
-            2000
+            () => { window.location = 'paymoo.github.io';},
+            5000
         );
     } else {
         window.location = 'https://www.google.com'
